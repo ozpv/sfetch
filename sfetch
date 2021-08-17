@@ -17,8 +17,7 @@ red='[31m'
 green='[32m'
 white='[37m'
 
-printf ${red}
-cat << "EOF"
+printf ${red} && cat << "EOF"
     _,--._.-,
    /\_r-,\_ )
 .-.) _;='_/ (.;
@@ -27,8 +26,7 @@ cat << "EOF"
  <_`-'\'_.'/
    `'-._( \ 
 EOF
-printf ${green}
-cat << "EOF"
+printf ${green} && cat << "EOF"
     ___   \\,      ___
     \ .'-. \\   .-'_. /
      '._' '.\\/.-'_.'
