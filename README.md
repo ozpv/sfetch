@@ -2,7 +2,7 @@
 sfetch is a shell script for displaying system information 
 its also a simple replacement for neofetch, etc.
 
-with less than 50 lines of code it can display ascii art and system information
+in less than 50 lines of code it can display ascii art and system information
 
 ## Installation
 1. Clone the repository
