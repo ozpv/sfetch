@@ -16,6 +16,7 @@ grep '^_NET_WM_NAME' | cut -d\" -f 2)
 red='[31m'
 green='[32m'
 white='[37m'
+def='[0m'
 
 printf ${red} && cat << "EOF"
     _,--._.-,
@@ -42,4 +43,4 @@ echo ${red}pc ${white}~ ${green}${pml}
 echo ${red}sh ${white}~ ${green}${shell##*/}
 [ -z "$wm" ] && continue || echo ${red}wm ${white}~ ${green}${wm}
 echo ${red}te ${white}~ ${green}${te}
-echo ${red}mu ${white}~ ${green}${mem}
+echo ${red}mu ${white}~ ${green}${mem} && printf ${def}
