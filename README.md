@@ -1,7 +1,6 @@
 <h1 align="center">sfetch</h1>
-<p align="center"><img src="https://raw.githubusercontent.com/ozpv/sfetch/main/preview.png"/></p>
 
-sfetch is a shell script for displaying system information in less than 50 lines of code
+sfetch is a shell script for displaying system information in less than 50loc
 
 ## Installation
 1. Clone the repository
