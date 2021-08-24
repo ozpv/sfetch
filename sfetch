@@ -18,25 +18,6 @@ green='[32m'
 white='[37m'
 def='[0m'
 
-printf ${red} && cat << "EOF"
-    _,--._.-,
-   /\_r-,\_ )
-.-.) _;='_/ (.;
- \ \'     \/S )
-  L.'-. _.'|-'
- <_`-'\'_.'/
-   `'-._( \ 
-EOF
-printf ${green} && cat << "EOF"
-    ___   \\,      ___
-    \ .'-. \\   .-'_. /
-     '._' '.\\/.-'_.'
-        '--``\('--'
-              \\
-              `\\,
-                \|
-EOF
-
 echo ${red}os ${white}~ ${green}${os}
 echo ${red}ut ${white}~ ${green}${ut}
 echo ${red}pc ${white}~ ${green}${pml}
