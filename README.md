@@ -1,7 +1,6 @@
 <h1 align="center">sfetch</h1>
 
-sfetch is a shell script for displaying system information in less than 50loc
-
+sfetch is a shell script for displaying system information in 27loc
 ## Installation
 1. Clone the repository
   - `git clone https://github.com/ozpv/sfetch`
